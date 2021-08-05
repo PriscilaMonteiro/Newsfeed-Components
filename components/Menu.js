@@ -69,38 +69,3 @@ document.body.appendChild(menuMaker(menuItems));
 
 
 
-
-
-//  const header = document.querySelector('.header');
-
-//   function menuMaker(array){
-//     let menuNode = document.createElement('div');
-//     menuNode.classList.add('menu');
-//     let ul = document.createElement('ul');
-//     header.appendChild(menuNode);
-//     menuNode.appendChild(ul);
-
-   
-
-
-//     array.forEach(e => {
-//       let menuThing = document.createElement('li');
-//       menuThing.textContent = e;
-//       menuNode.appendChild(menuThing);
-//     });
-
-      
-//     const menuBtnImg = document.querySelector('.menu-button');
-//     menuBtnImg.addEventListener('click', () => {
-//       menuNode.classList.toggle('menu--open');
-//     });
-
-//     return menuNode;
-//   }
-  
-
-//   console.log(menuMaker(menuItems));
-//   // const menu1 = menuMaker(menuItems);
-//   // header.appendChild(menu1);
-// // menuMaker(menuItems);
-// console.log(menuMaker(menuItems));   
